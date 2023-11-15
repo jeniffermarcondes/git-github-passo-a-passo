@@ -4,9 +4,12 @@ Passo a passo feito a partir do vídeo:
 
 [Git e Github Tutorial completo - Nelio Alves](https://www.youtube.com/watch?v=_hZf1teRFNg).
 
+### OBS: troque os parâmetros em capslock pelos seus dados ###
+
 ## Configurações iniciais
-- git config --global user.name "Jeniffer Marcondes"
-- git config --global user.email "jenii.marcondes@gmail.com"
+
+- git config --global user.name "SEU NOME"
+- git config --global user.email "SEU EMAIL"
 - git config --list (Lista com as configurações)
 - Configuração para ver arquivos ocultos (Windows)
  
@@ -24,6 +27,7 @@ O Github aboliu a autenticação somente com usuário e senha.
 
 A ideia básica é cadastrar previamente quais computadores podem acessar o Github em seu nome. Outros computadores não conseguem acessar.
 
+
 Para isto deve:
 1. Gerar uma chave SSH no computador
 - no google pesquisar: github ssh
@@ -31,7 +35,7 @@ Para isto deve:
 - clicar em: gerar uma nova chave SSH e adicioná-la ao ssh-agent
 - seguir as instruções para gerar a chave
 abrir o git bach
-ssh-keygen -t ed25519 -C "email"
+ssh-keygen -t ed25519 -C "EMAIL"
 - git dará opção de escolher diretório, se estiver de acordo tecla enter
 - após dará opção de criar uma senha para comunicar com o github a cada interação, se não quiser basta teclar enter novamente
 - senha gerada no diretório informado no passo anterior
@@ -45,8 +49,7 @@ ssh-keygen -t ed25519 -C "email"
 - add ssh key
 
 ## Passo a passo: salvar primeira versão de um projeto no github
-Considerando que agora o ambiente já está todo configurado (usuário e email, visualização de arquivos ocultos, chave SSH), sempre que criar um novo projeto, os passos básicos serão estes (troque os parâmetros em capslock pelos seus dados)
-
+Considerando que agora o ambiente já está todo configurado (usuário e email, visualização de arquivos ocultos, chave SSH), sempre que criar um novo projeto, os passos básicos serão estes 
 - abrir o gitbash no diretório a ser comitado
 - git init (inicializar o repositório)
 - git add . (comando para salvar uma versão - vai enviar o arquivo para uma pasta temporária chamada STAGE)
