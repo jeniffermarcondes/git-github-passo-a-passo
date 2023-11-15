@@ -14,11 +14,11 @@ Passo a passo feito a partir do vídeo:
 - Configuração para ver arquivos ocultos (Windows)
  
 
-    1. Iniciar -> Opções do explorador de arquivos
+    - Iniciar -> Opções do explorador de arquivos
 
-    2. DESMARCAR: "Ocultar as extensões dos tipos de arquivos conhecidos"
+    - DESMARCAR: "Ocultar as extensões dos tipos de arquivos conhecidos"
 
-    3. MARCAR: "Mostrar arquivos, pastas e unidades ocultas"
+    - MARCAR: "Mostrar arquivos, pastas e unidades ocultas"
 
 ## Configurar chave SSH para o Github
 SSH é um protocolo para comunicação de dados com segurança.
